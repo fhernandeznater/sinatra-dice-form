@@ -6,5 +6,5 @@ get("/") do
 end
 
 get("/process_roll") do
-  "Howdy"
+  erb(:results)
 end
