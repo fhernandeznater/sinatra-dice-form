@@ -2,7 +2,7 @@ require "sinatra"
 require "sinatra/reloader"
 
 get("/") do
-  "Main Page"
+  erb(:homepage)
 end
 
 get("/process_roll") do
